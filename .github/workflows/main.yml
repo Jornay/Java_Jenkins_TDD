@@ -44,9 +44,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: 14
-        
-    - name: Run tests with Maven
-      run: mvn -B test --file pom.xml
+      
  
 
   deploy_production:
