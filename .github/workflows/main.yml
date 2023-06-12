@@ -31,13 +31,6 @@ jobs:
       with:
         node-version: 14
 
-    - name: Deploy to Development environment
-      uses: actions/ssh-deploy@v1
-      with:
-        host: ${{ secrets.DEV_HOST }}
-        username: ${{ secrets.DEV_USERNAME }}
-        key: ${{ secrets.DEV_SSH_KEY }}
-
 
   deploy_staging:
     needs: build
@@ -51,28 +44,6 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: 14
-
-    - name: Deploy to Staging environment
-      uses: actions/ssh-deploy@v1
-      with:
-        host: ${{ secrets.STAGING_HOST }}
-        username: ${{ secrets.STAGING_USERNAME }}
-        key: ${{ secrets.STAGING_SSH_KEY }}
-      env:
-        TF_VAR_env: staging
-        CI: false
-        
-    - name:   Cache Terraform plugins and modules
-      uses: actions/cache@v2
-      with:
-        path: |
-          ~/.terraform.d/plugins
-          ~/.terraform.d/plugin-cache
-        key: ${{ runner.os }}-terraform-${{ env.TF_VERSION }}-${{ env.TF_VAR_env }}
-        restore-keys: |
-          ${{ runner.os }}-terraform-${{ env.TF_VERSION }}-${{ env.TF_VAR_env }}
-          ${{ runner.os }}-terraform-${{ env.TF_VERSION }}
-          ${{ runner.os }}-terraform-
  
 
   deploy_production:
@@ -87,23 +58,4 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: 14
-
-    - name: Build and tag Docker image
-      run: |
-        docker build -t my-image:latest .
-        docker tag my-image:latest my-registry/my-image:latest
-
-    - name: Push Docker image to registry
-      uses: docker/build-push-action@v2
-      with:
-        context: .
-        push: true
-        tags: my-registry/my-image:latest
-
-    - name: Upload artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: my-image
-        path: |
-          my-image.tar.gz
  
