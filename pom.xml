@@ -2,12 +2,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.example</groupId>
-  <artifactId>AfLeles</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
 
-  <name>AfLeles</name>
+  <groupId>com.projects</groupId>
+  <artifactId>AF</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+
+  <name>AF</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -117,10 +118,12 @@
             <exclude>**/dominio/**</exclude>
             <exclude>**/controller/**</exclude>
             <exclude>**/infraestrutura/**</exclude>
-            <exclude>**/Application</exclude>
+            <exclude>**/utils/**</exclude>
+            <exclude>Application</exclude>
           </excludes>
         </configuration>
       </plugin>
     </plugins>
   </build>
+  <packaging>war</packaging>
 </project>
