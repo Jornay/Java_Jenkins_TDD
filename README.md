@@ -1,6 +1,6 @@
 # Java Jenkins TDD
 
-Este é um projeto Java que utiliza Jenkins para integração contínua e segue a metodologia de desenvolvimento orientado a testes (TDD).
+Este é um projeto Java que utiliza o Jenkins para integração contínua e segue a metodologia de desenvolvimento orientado a testes (TDD).
 
 ## Pré-requisitos
 
@@ -10,26 +10,33 @@ Este é um projeto Java que utiliza Jenkins para integração contínua e segue 
 
 ## Configuração
 
-1. Clone o repositório para a sua máquina local usando `https://github.com/Jornay/Java_Jenkins_TDD.git`.
-2. Navegue até a pasta do projeto e execute `mvn clean install` para instalar as dependências.
+1. Clone o repositório para a sua máquina local utilizando o seguinte comando:
+`git clone https://github.com/Jornay/Java_Jenkins_TDD.git`
 
-## Executando os testes
 
-Os testes podem ser executados com o comando `mvn test`.
+2. Navegue até a pasta do projeto e execute o seguinte comando para instalar as dependências:
+`mvn clean install`
 
-## Jenkins
+## Executando os Testes
+
+Os testes podem ser executados utilizando o comando:
+`mvn test`
+
+
+## Configurando o Jenkins
 
 Para configurar o Jenkins para este projeto, siga os passos abaixo:
 
 1. Instale o Jenkins na sua máquina.
-2. Crie um novo job no Jenkins e configure-o para usar este repositório.
-3. Configure o job para executar `mvn clean install` como um passo de build.
+2. Crie um novo job no Jenkins e configure-o para utilizar este repositório.
+3. Configure o job para executar `mvn clean install` como uma etapa de build.
 4. Configure o job para executar os testes com `mvn test`.
 
-## Contribuindo
+## Contribuições
 
-Pull requests são bem-vindos. Para mudanças importantes, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
+Pull requests são bem-vindos. Para alterações significativas, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
 
 ## Licença
 
-[MIT](https://choosealicense.com/licenses/mit/)
+Este projeto está licenciado sob a [Licença MIT](https://choosealicense.com/licenses/mit/).
+
