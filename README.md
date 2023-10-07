@@ -1,40 +1,40 @@
 # Java Jenkins TDD
 
-Este é um projeto Java que utiliza o Jenkins para integração contínua e segue a metodologia de desenvolvimento orientado a testes (TDD).
+This is a Java project that utilizes Jenkins for continuous integration and follows the Test-Driven Development (TDD) methodology.
 
-## Pré-requisitos
+## Prerequisites
 
-- Java 8 ou superior
+- Java 8 or higher
 - Jenkins
 - Maven
 
-## Configuração
+## Configuration
 
-1. Clone o repositório para a sua máquina local utilizando o seguinte comando:
+1. Clone the repository to your local machine using the following command:
+
 `git clone https://github.com/Jornay/Java_Jenkins_TDD.git`
 
-
-2. Navegue até a pasta do projeto e execute o seguinte comando para instalar as dependências:
+2. Navigate to the project folder and execute the following command to install the dependencies:
 `mvn clean install`
 
-## Executando os Testes
 
-Os testes podem ser executados utilizando o comando:
+## Running Tests
+
+Tests can be executed using the following command:
 `mvn test`
 
+## Setting up Jenkins
 
-## Configurando o Jenkins
+To configure Jenkins for this project, follow the steps below:
 
-Para configurar o Jenkins para este projeto, siga os passos abaixo:
+1. Install Jenkins on your machine.
+2. Create a new Jenkins job and configure it to use this repository.
+3. Configure the job to execute `mvn clean install` as a build step.
+4. Configure the job to run tests with `mvn test`.
 
-1. Instale o Jenkins na sua máquina.
-2. Crie um novo job no Jenkins e configure-o para utilizar este repositório.
-3. Configure o job para executar `mvn clean install` como uma etapa de build.
-4. Configure o job para executar os testes com `mvn test`.
+## Contributions
 
-## Contribuições
-
-Pull requests são bem-vindos. Para alterações significativas, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
+Pull requests are welcome. For significant changes, please open an issue first to discuss what you would like to change.
 
 | Author | Description |
 | :---: | :--- |
@@ -45,7 +45,7 @@ Pull requests são bem-vindos. Para alterações significativas, por favor, abra
 ||
 <img src="https://avatars.githubusercontent.com/u/52716819?v=4" width="130"> | **Lucas de Abreu Furtado Garcia (https://github.com/Jornay)**<br> Developer/Student.<br> ||
 
-## Licença
+## License
 
-Este projeto está licenciado sob a [Licença MIT](https://choosealicense.com/licenses/mit/).
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
