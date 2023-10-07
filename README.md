@@ -38,12 +38,12 @@ Pull requests são bem-vindos. Para alterações significativas, por favor, abra
 
 | Author | Description |
 | :---: | :--- |
-| <img src="https://avatars.githubusercontent.com/u/70240646?v=4" width="170"> | **Matheus Jacob Bendel (https://github.com/Matheus-jacobb)**<br> Developer/Student.<br> ||
-<img src="https://avatars.githubusercontent.com/u/69996623?v=4" width="170"> | **Antonio Luis Canno de Araujo (https://github.com/tonicocanno)**<br> Developer/Student.<br> 
+| <img src="https://avatars.githubusercontent.com/u/70240646?v=4" width="130"> | **Matheus Jacob Bendel (https://github.com/Matheus-jacobb)**<br> Developer/Student.<br> ||
+<img src="https://avatars.githubusercontent.com/u/69996623?v=4" width="130"> | **Antonio Luis Canno de Araujo (https://github.com/tonicocanno)**<br> Developer/Student.<br> 
 ||
-<img src="https://avatars.githubusercontent.com/u/70176420?v=4" width="170"> | **Guilherme Koji Yamada (https://github.com/gkojiyamada)**<br> Developer/Student.<br> ||
+<img src="https://avatars.githubusercontent.com/u/70176420?v=4" width="130"> | **Guilherme Koji Yamada (https://github.com/gkojiyamada)**<br> Developer/Student.<br> ||
 ||
-<img src="https://avatars.githubusercontent.com/u/52716819?v=4" width="170"> | **Lucas de Abreu Furtado Garcia (https://github.com/Jornay)**<br> Developer/Student.<br> ||
+<img src="https://avatars.githubusercontent.com/u/52716819?v=4" width="130"> | **Lucas de Abreu Furtado Garcia (https://github.com/Jornay)**<br> Developer/Student.<br> ||
 
 ## Licença
 
