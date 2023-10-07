@@ -36,6 +36,11 @@ Para configurar o Jenkins para este projeto, siga os passos abaixo:
 
 Pull requests são bem-vindos. Para alterações significativas, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
 
+| Author | Description |
+| :---: | :--- |
+||
+<img src="https://avatars.githubusercontent.com/u/52716819?v=4" width="170"> | **Lucas de Abreu Furtado Garcia (https://github.com/Jornay)**<br> Developer/Student.<br> ||
+
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](https://choosealicense.com/licenses/mit/).
