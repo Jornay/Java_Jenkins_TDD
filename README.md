@@ -2,6 +2,14 @@
 
 This is a Java project that utilizes Jenkins for continuous integration and follows the Test-Driven Development (TDD) methodology.
 
+## 🔧 Key Features:
+
+- Seamless Jenkins integration for CI/CD.
+- Robust testing practices following TDD methodology.
+- Compatibility with Java 8 and higher.
+- Maven for dependency management.
+
+    
 ## Prerequisites
 
 - Java 8 or higher
